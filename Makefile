@@ -24,7 +24,7 @@ blocks.h:
 
 clean:
 	rm -f *.o *.gch dwmblocks
-	rm -f dwmblocks.h
+	rm -f blocks.h
 
 install: dwmblocks
 	mkdir -p ${DESTDIR}${PREFIX}/bin
